@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "noUnusedLocals": true
+  },
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended",
+    "tslint-config-prettier",
+    "tslint-plugin-prettier"
+  ],
+  "linterOptions": {
+    "exclude": [
+      "**/*.ts.snap"
+    ]
+  },
+  "rules": {
+    "prettier": [
+      true,
+      ".prettierrc"
+    ],
+    "no-var-requires": false,
+    "interface-name": [
+      true,
+      "never-prefix"
+    ],
+    "object-literal-sort-keys": false,
+    "member-ordering": [
+      true,
+      {
+        "order": [
+          "private-static-field",
+          "public-static-field",
+          "private-constructor",
+          "public-constructor",
+          "private-instance-field",
+          "public-instance-field",
+          "private-instance-method",
+          "protected-instance-method",
+          "public-instance-method"
+        ]
+      }
+    ]
+  }
+}

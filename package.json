@@ -1,0 +1,24 @@
+{
+  "name": "cloud-functions",
+  "version": "1.0.0",
+  "description": "Various cloud functions for cloud function things",
+  "main": "index.js",
+  "repository": "https://github.com/namack/cloud-functions",
+  "author": "Nate Amack <nate@amack.org> (https://nateamack.com)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8"
+  },
+  "devDependencies": {
+    "prettier": "^1.16.4",
+    "prettier-tslint": "^0.4.2",
+    "tslint": "^5.13.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.0.1",
+    "typescript": "^3.3.3333"
+  },
+  "dependencies": {
+    "moment-timezone": "^0.5.23",
+    "octonode": "^0.9.5"
+  }
+}

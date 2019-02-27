@@ -1,0 +1,9 @@
+{
+    "eslint.enable": false,
+    "editor.tabSize": 2,
+    "editor.formatOnSave": false,
+    "tslint.enable": true,
+    "tslint.autoFixOnSave": true,
+    "tslint.packageManager": "yarn",
+    "prettier.tslintIntegration": true
+}
