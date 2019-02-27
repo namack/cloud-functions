@@ -13,6 +13,7 @@
     "resolveJsonModule": true,
     "strictPropertyInitialization": true,
     "strictNullChecks": true,
-    "outDir": "dist"
+    "outDir": "dist",
+    "rootDir": "src"
   }
 }
