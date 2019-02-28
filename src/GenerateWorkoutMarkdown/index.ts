@@ -24,9 +24,11 @@ const writeActivityToGithub = (activity: StravaDetailedActivity): void => {
   const date = moment.tz(absoluteDate, 'America/Denver').format('YYYY-MM-DD');
 
   const elevationGain =
-    activity.type === 'Run' ||
-    (activity.type === 'Ride' &&
-      `* Elevation Gain: ${activity.total_elevation_gain}`);
+    (activity.type === 'Run' ||
+      activity.type === 'Ride' ||
+      activity.type === 'VirtualRide' ||
+      activity.type === 'VirtualRun') &&
+    `* Elevation Gain: ${activity.total_elevation_gain}`;
 
   const content = `
 ---
