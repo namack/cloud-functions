@@ -27,6 +27,7 @@
     "typescript": "^3.3.3333"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "moment-timezone": "^0.5.23",
     "octonode": "^0.9.5"
   }

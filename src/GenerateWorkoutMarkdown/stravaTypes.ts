@@ -2,6 +2,11 @@ interface StravaHubResponse {
   'hub.challenge': string;
 }
 
+enum StravaRequestType {
+  StravaHubRequest = 'StravaHubRequest',
+  StravaWebhookEvent = 'StravaWebhookEvent',
+}
+
 interface StravaHubRequest extends StravaHubResponse {
   'hub.mode': string;
   'hub.verify_token': string;
@@ -230,3 +235,10 @@ interface StravaDetailedActivity {
   laps: StravaLap[];
   best_efforts: StravaDetailedSegmentEffort[];
 }
+
+export {
+  StravaHubRequest,
+  StravaRequestType,
+  StravaWebhookEvent,
+  StravaDetailedActivity,
+};

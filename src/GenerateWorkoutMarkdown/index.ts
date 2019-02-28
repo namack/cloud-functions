@@ -1,46 +1,107 @@
+import axios from 'axios';
 import { Request, Response } from 'express';
 import moment from 'moment-timezone';
 import github from 'octonode';
+import {
+  StravaDetailedActivity,
+  StravaHubRequest,
+  StravaRequestType,
+  StravaWebhookEvent,
+} from './stravaTypes';
 
-const generateWorkoutMarkdown = (req: Request, res: Response) => {
-  const token = process.env.GITHUB_TOKEN;
-
-  if (!token) {
-    return res.send('couldnt find token');
+const determineRequestType = (req: Request): StravaRequestType | undefined => {
+  const { body } = req;
+  if (body['hub.mode'] && body['hub.verify_token'] && body['hub.challenge']) {
+    return StravaRequestType.StravaHubRequest;
+  } else if (body.object_id && body.aspect_type && body.object_type) {
+    return StravaRequestType.StravaWebhookEvent;
   }
+};
 
+const writeActivityToGithub = (activity: StravaDetailedActivity): void => {
+  const githubToken = process.env.GITHUB_TOKEN;
   const absoluteDate = moment();
   const date = moment.tz(absoluteDate, 'America/Denver').format('YYYY-MM-DD');
-  const dummyContent = `
+
+  const elevationGain =
+    activity.type === 'Run' ||
+    (activity.type === 'Ride' &&
+      `* Elevation Gain: ${activity.total_elevation_gain}`);
+
+  const content = `
 ---
-date: "${date}"
-title: "Testing the cloud function"
+date: ${activity.start_date}
+title: ${activity.name}
 categories:
-  - Run
+  - ${activity.type}
 ---
 
-## This is a test
-I am testing out this side of the cloud function to see if I can easily
-generate markdown files and insert them into the repo.
+## [${activity.start_date}: ${
+    activity.name
+  }](https://www.strava.com/activities/${activity.id})
+  * Distance: ${activity.distance}
+  * Elapsed Time: ${activity.elapsed_time}
+  ${elevationGain}
   `.trim();
 
-  const client = github.client(token);
+  const client = github.client(githubToken);
   const repo = client.repo('namack/nateistraining.com');
 
   const callback = (error: Error) => {
     if (error) {
-      return res.send({ error });
+      throw error;
     }
-    return res.send('it worked! in typescript!');
+
+    // tslint:disable
+    console.log(`Wrote Activity to GitHub: ${activity.id}`);
   };
 
   repo.createContents(
     `blog/${date}/index4.mdx`,
     'testing cloud function with typescript',
-    dummyContent,
+    content,
     'master',
     callback
   );
+};
+
+const generateWorkoutMarkdown = (req: Request, res: Response) => {
+  const stravaVerifyToken = process.env.STRAVA_VERIFY_TOKEN;
+
+  const requestType = determineRequestType(req);
+
+  switch (requestType) {
+    case StravaRequestType.StravaHubRequest:
+      const hubBody: StravaHubRequest = req.body;
+      const tokenVerified = hubBody['hub.verify_token'] === stravaVerifyToken;
+
+      return tokenVerified && axios.get(hubBody['hub.challenge']);
+
+    case StravaRequestType.StravaWebhookEvent:
+      const webhookBody: StravaWebhookEvent = req.body;
+
+      if (
+        webhookBody.aspect_type !== 'create' ||
+        webhookBody.object_type !== 'activity'
+      ) {
+        return;
+      }
+
+      return axios
+        .get(
+          `https://www.strava.com/api/v3/activities/${webhookBody.object_id}`
+        )
+        .then(({ data }) => {
+          const activity = data as StravaDetailedActivity;
+          return writeActivityToGithub(activity);
+        })
+        .catch(error => {
+          throw error;
+        });
+
+    default:
+      break;
+  }
 };
 
 export { generateWorkoutMarkdown };
