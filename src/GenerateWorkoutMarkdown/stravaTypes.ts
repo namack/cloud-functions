@@ -22,6 +22,162 @@ interface StravaWebhookEvent {
   event_time: number;
 }
 
+interface StravaMetaAthlete {
+  id: number;
+}
+
+type StravaActivityType =
+  | 'AlpineSki'
+  | 'BackcountrySki'
+  | 'Canoeing'
+  | 'Crossfit'
+  | 'EBikeRide'
+  | 'Elliptical'
+  | 'Golf'
+  | 'Handcycle'
+  | 'Hike'
+  | 'IceSkate'
+  | 'InlineSkate'
+  | 'Kayaking'
+  | 'Kitesurf'
+  | 'NordicSki'
+  | 'Ride'
+  | 'RockClimbing'
+  | 'RollerSki'
+  | 'Rowing'
+  | 'Run'
+  | 'Sail'
+  | 'Skateboard'
+  | 'Snowboard'
+  | 'Snowshoe'
+  | 'Soccer'
+  | 'StairStepper'
+  | 'StandUpPaddling'
+  | 'Surfing'
+  | 'Swim'
+  | 'Velomobile'
+  | 'VirtualRide'
+  | 'VirtualRun'
+  | 'Walk'
+  | 'WeightTraining'
+  | 'Wheelchair'
+  | 'Windsurf'
+  | 'Workout'
+  | 'Yoga';
+
+type StravaLatLng = [number, number];
+
+interface StravaPolylineMap {
+  id: string;
+  polyling: string;
+  summary_polyline: string;
+}
+
+interface StravaPhotoSummary {
+  count: number;
+  primary: {
+    id: number;
+    source: number;
+    unique_id: string;
+    urls: string;
+  };
+}
+
+interface StravaSummaryGear {
+  id: string;
+  resource_state: number;
+  primary: boolean;
+  name: string;
+  distance: number;
+}
+
+interface StravaMetaActivity {
+  id: number;
+}
+
+interface StravaSummarySegmentEffort {
+  id: number;
+  elapsed_time: number;
+  start_date: string;
+  start_date_local: string;
+  distance: number;
+  is_kom: boolean;
+}
+
+interface StravaSummarySegment {
+  id: number;
+  name: string;
+  activity_type: string;
+  distance: number;
+  average_grade: number;
+  maximum_grade: number;
+  elevation_high: number;
+  elevation_low: number;
+  start_latlng: StravaLatLng;
+  end_latlng: StravaLatLng;
+  climb_category: number;
+  city: string;
+  state: string;
+  country: string;
+  private: boolean;
+  athlete_pr_effort: StravaSummarySegmentEffort;
+}
+
+interface StravaDetailedSegmentEffort {
+  id: number;
+  elapsed_time: number;
+  start_date: string;
+  start_date_local: string;
+  distance: number;
+  is_kom: boolean;
+  name: string;
+  activity: StravaMetaActivity;
+  athlete: StravaMetaAthlete;
+  moving_time: number;
+  start_index: number;
+  end_index: number;
+  average_cadence: number;
+  average_watts: number;
+  device_watts: boolean;
+  average_heartrate: number;
+  max_heartrate: number;
+  segment: StravaSummarySegment;
+  kom_rank: number;
+  pr_rank: number;
+  hidden: boolean;
+}
+
+interface StravaSplit {
+  average_speed: number;
+  distance: number;
+  elapsed_time: number;
+  elevation_difference: number;
+  pace_zone: number;
+  moving_time: number;
+  split: number;
+}
+
+interface StravaLap {
+  id: number;
+  activity: StravaMetaActivity;
+  athlete: StravaMetaAthlete;
+  average_cadence: number;
+  average_speed: number;
+  distance: number;
+  elapsed_time: number;
+  start_index: number;
+  end_index: number;
+  lap_index: number;
+  max_speed: number;
+  moving_time: number;
+  name: string;
+  pace_zone: number;
+  split: number;
+  start_date: string;
+  start_date_local: string;
+  total_elevation_gain: number;
+}
+
 interface StravaDetailedActivity {
   id: number;
   external_id: string;
@@ -72,5 +228,5 @@ interface StravaDetailedActivity {
   splits_metric?: StravaSplit;
   splits_standard?: StravaSplit;
   laps: StravaLap[];
-  best_efforts: StravaDetailedSegmentEffor[];
+  best_efforts: StravaDetailedSegmentEffort[];
 }
