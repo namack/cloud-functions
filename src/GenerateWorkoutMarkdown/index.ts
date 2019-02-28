@@ -91,7 +91,12 @@ const generateWorkoutMarkdown = (req: Request, res: Response) => {
 
       return axios
         .get(
-          `https://www.strava.com/api/v3/activities/${webhookBody.object_id}`
+          `https://www.strava.com/api/v3/activities/${webhookBody.object_id}`,
+          {
+            headers: {
+              'Authorization': `bearer: ${process.env.STRAVA_TOKEN}`
+            }
+          }
         )
         .then(({ data }) => {
           const activity = data as StravaDetailedActivity;
