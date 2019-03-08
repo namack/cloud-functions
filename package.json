@@ -14,10 +14,14 @@
     "deploy": "tsc && node scripts/deploy.js"
   },
   "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/register": "^7.0.0",
     "@types/express": "^4.16.1",
     "@types/moment-timezone": "^0.5.10",
     "@types/node": "^11.9.5",
     "@types/shelljs": "^0.8.3",
+    "express": "^4.16.4",
     "prettier": "^1.16.4",
     "prettier-tslint": "^0.4.2",
     "shelljs": "^0.8.3",
