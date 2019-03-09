@@ -4,14 +4,17 @@ import moment from 'moment-timezone';
 import github from 'octonode';
 import {
   StravaDetailedActivity,
-  StravaHubRequest,
   StravaRequestType,
   StravaWebhookEvent,
 } from './stravaTypes';
 
 const determineRequestType = (req: Request): StravaRequestType | undefined => {
   const { body } = req;
-  if (body['hub.mode'] && body['hub.verify_token'] && body['hub.challenge']) {
+  if (
+    req.query['hub.mode'] &&
+    req.query['hub.verify_token'] &&
+    req.query['hub.challenge']
+  ) {
     return StravaRequestType.StravaHubRequest;
   } else if (body.object_id && body.aspect_type && body.object_type) {
     return StravaRequestType.StravaWebhookEvent;
@@ -69,16 +72,17 @@ categories:
 
 const generateWorkoutMarkdown = (req: Request, res: Response) => {
   const stravaVerifyToken = process.env.STRAVA_VERIFY_TOKEN;
-
   const requestType = determineRequestType(req);
 
   switch (requestType) {
     case StravaRequestType.StravaHubRequest:
-      const hubBody: StravaHubRequest = req.body;
-      const tokenVerified = hubBody['hub.verify_token'] === stravaVerifyToken;
-
-      return tokenVerified && axios.get(hubBody['hub.challenge']);
-
+      const hub = {
+        'hub.challenge': req.query['hub.challenge'],
+        'hub.verify_token': req.query['hub.verify_token'],
+        'hub.mode': req.query['hub.mode'],
+      };
+      const tokenVerified = hub['hub.verify_token'] === stravaVerifyToken;
+      return tokenVerified ? res.send({ ['hub.challenge']: hub['hub.challenge']}) : res.status(400).send()
     case StravaRequestType.StravaWebhookEvent:
       const webhookBody: StravaWebhookEvent = req.body;
 
