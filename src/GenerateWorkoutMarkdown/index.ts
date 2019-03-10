@@ -3,9 +3,11 @@ import { Request, Response } from 'express';
 import moment from 'moment-timezone';
 import github from 'octonode';
 import {
+  RefreshTokenResponse,
   StravaDetailedActivity,
   StravaRequestType,
   StravaWebhookEvent,
+  Token,
 } from './stravaTypes';
 
 const determineRequestType = (req: Request): StravaRequestType | undefined => {
@@ -71,6 +73,35 @@ categories:
   );
 };
 
+const getToken = (): Promise<Token> => {
+  const clientId = `client_id=${process.env.STRAVA_CLIENT_ID}`;
+  const clientSecret = `client_id=${process.env.STRAVA_CLIENT_SECRET}`;
+  const refreshToken = `refresh_token=${process.env.STRAVA_REFRESH_TOKEN}`
+  const grantType = `grant_type=refresh_token`
+
+  return axios
+    .post(`https://www.strava.com/oauth/token?${clientId}&${clientSecret}&${refreshToken}&${grantType}`)
+    .then(({ data }) => {
+      const response = data as RefreshTokenResponse;
+      return response.access_token
+    });
+}
+
+const getActivityData = (activityId: number, token: Token): Promise<StravaDetailedActivity> => {
+  return axios
+    .get(
+      `https://www.strava.com/api/v3/activities/${activityId}`,
+      {
+        headers: {
+          'Authorization': `Bearer ${token}`
+        }
+      }
+    ).then(({ data }) => {
+      console.log('Token Refresh Complete');
+      return data as StravaDetailedActivity
+    });
+}
+
 const generateWorkoutMarkdown = (req: Request, res: Response) => {
   const stravaVerifyToken = process.env.STRAVA_VERIFY_TOKEN;
   const requestType = determineRequestType(req);
@@ -94,21 +125,14 @@ const generateWorkoutMarkdown = (req: Request, res: Response) => {
         return;
       }
 
-      return axios
-        .get(
-          `https://www.strava.com/api/v3/activities/${webhookBody.object_id}`,
-          {
-            headers: {
-              'Authorization': `Bearer ${process.env.STRAVA_TOKEN}`
-            }
-          }
-        )
-        .then(({ data }) => {
-          const activity = data as StravaDetailedActivity;
-          return writeActivityToGithub(activity);
+      return getToken()
+        .then((token: Token) => {
+          return getActivityData(webhookBody.object_id, token);
         })
-        .catch(error => {
-          throw error;
+        .then((activity: StravaDetailedActivity) => {
+          return writeActivityToGithub(activity)
+        }).catch((error: any) => {
+          console.error(error)
         });
 
     default:

@@ -7,6 +7,16 @@ enum StravaRequestType {
   StravaWebhookEvent = 'StravaWebhookEvent',
 }
 
+type Token = string;
+
+interface RefreshTokenResponse {
+  token_type: 'Bearer';
+  access_token: Token;
+  expires_at: number;
+  expires_in: number;
+  refresh_token: Token;
+}
+
 interface StravaHubRequest extends StravaHubResponse {
   'hub.mode': string;
   'hub.verify_token': string;
@@ -241,4 +251,6 @@ export {
   StravaRequestType,
   StravaWebhookEvent,
   StravaDetailedActivity,
+  RefreshTokenResponse,
+  Token,
 };
