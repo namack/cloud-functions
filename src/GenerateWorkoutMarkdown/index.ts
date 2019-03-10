@@ -21,7 +21,7 @@ const determineRequestType = (req: Request): StravaRequestType | undefined => {
   } else if (
     body.object_id &&
     body.aspect_type === 'create' &&
-    body.object_type
+    body.object_type === 'activity'
   ) {
     return StravaRequestType.StravaWebhookEvent;
   }
@@ -122,12 +122,6 @@ const generateWorkoutMarkdown = (req: Request, res: Response) => {
     case StravaRequestType.StravaWebhookEvent:
       const webhookBody: StravaWebhookEvent = req.body;
       res.status(200).send()
-      if (
-        webhookBody.aspect_type !== 'create' ||
-        webhookBody.object_type !== 'activity'
-      ) {
-        return;
-      }
 
       return getToken()
         .then((token: Token) => {
