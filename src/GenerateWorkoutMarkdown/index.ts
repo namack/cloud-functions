@@ -75,7 +75,7 @@ categories:
 
 const getToken = (): Promise<Token> => {
   const clientId = `client_id=${process.env.STRAVA_CLIENT_ID}`;
-  const clientSecret = `client_id=${process.env.STRAVA_CLIENT_SECRET}`;
+  const clientSecret = `client_secret=${process.env.STRAVA_CLIENT_SECRET}`;
   const refreshToken = `refresh_token=${process.env.STRAVA_REFRESH_TOKEN}`
   const grantType = `grant_type=refresh_token`
 
