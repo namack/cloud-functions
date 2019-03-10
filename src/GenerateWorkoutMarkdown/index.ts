@@ -25,6 +25,7 @@ const writeActivityToGithub = (activity: StravaDetailedActivity): void => {
   const githubToken = process.env.GITHUB_TOKEN;
   const absoluteDate = moment();
   const date = moment.tz(absoluteDate, 'America/Denver').format('YYYY-MM-DD');
+  const startDate = moment(activity.start_date).format('dddd, MMMM Do YYYY');
 
   const elevationGain =
     (activity.type === 'Run' ||
@@ -41,9 +42,9 @@ categories:
   - ${activity.type}
 ---
 
-## [${activity.start_date}: ${
-    activity.name
-  }](https://www.strava.com/activities/${activity.id})
+## [${startDate}: ${activity.name}](https://www.strava.com/activities/${
+    activity.id
+  })
   * Distance: ${activity.distance}
   * Elapsed Time: ${activity.elapsed_time}
   ${elevationGain}
@@ -62,8 +63,8 @@ categories:
   };
 
   repo.createContents(
-    `blog/${date}/index4.mdx`,
-    'testing cloud function with typescript',
+    `blog/${date}/index.mdx`,
+    `${startDate}: ${activity.type}`,
     content,
     'master',
     callback
@@ -98,7 +99,7 @@ const generateWorkoutMarkdown = (req: Request, res: Response) => {
           `https://www.strava.com/api/v3/activities/${webhookBody.object_id}`,
           {
             headers: {
-              'Authorization': `bearer: ${process.env.STRAVA_TOKEN}`
+              'Authorization': `Bearer ${process.env.STRAVA_TOKEN}`
             }
           }
         )

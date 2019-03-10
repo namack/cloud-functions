@@ -12,7 +12,7 @@
   "scripts": {
     "build": "tsc",
     "clean": "trash dist",
-    "deploy": "tsc && node scripts/deploy.js",
+    "deploy": "run-s clean build && node scripts/deploy.js",
     "test": "run-s clean build && start-test test:server 9001 test:client",
     "test:client": "jest",
     "test:server": "node ./server"
