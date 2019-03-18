@@ -34,7 +34,7 @@ const writeActivityToGithub = (activity: StravaDetailedActivity): void => {
   const date = moment.tz(absoluteDate, 'America/Denver').format('YYYY-MM-DD');
   const startDate = moment(activity.start_date).format('dddd, MMMM Do YYYY');
 
-  const content = `
+  const blogPost = `
 ---
 date: ${activity.start_date}
 title: ${startDate}
@@ -56,10 +56,21 @@ ${createMarkdown(activity)}
     console.log(`Wrote Activity to GitHub: ${activity.id}`);
   };
 
+  const path = (filename: string) => `blog/${date}/${filename}`
+  const commitMessage = (filetype: string) => `${startDate}: ${activity.type}: ${filetype}`;
+
   repo.createContents(
-    `blog/${date}/index.mdx`,
-    `${startDate}: ${activity.type}`,
-    content,
+    path(`${activity.type}.json`),
+    commitMessage('activity data'),
+    activity,
+    'master',
+    callback
+  )
+
+  repo.createContents(
+    path('index.mdx'),
+    commitMessage('blog post'),
+    blogPost,
     'master',
     callback
   );
