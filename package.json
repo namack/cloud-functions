@@ -26,6 +26,7 @@
     "@types/jest": "^24.0.10",
     "@types/moment-timezone": "^0.5.10",
     "@types/node": "^11.9.5",
+    "@types/pluralize": "^0.0.29",
     "@types/shelljs": "^0.8.3",
     "env-yaml": "^0.1.2",
     "express": "^4.16.4",
@@ -43,7 +44,9 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "moment-duration-format": "^2.2.2",
     "moment-timezone": "^0.5.23",
-    "octonode": "^0.9.5"
+    "octonode": "^0.9.5",
+    "pluralize": "^7.0.0"
   }
 }

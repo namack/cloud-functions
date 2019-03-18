@@ -39,6 +39,7 @@ interface StravaWebhookEvent {
 
 interface StravaMetaAthlete {
   id: number;
+  resource_state: number;
 }
 
 type StravaActivityType =
@@ -84,17 +85,19 @@ type StravaLatLng = [number, number];
 
 interface StravaPolylineMap {
   id: string;
-  polyling: string;
+  polyline: string;
+  resource_state: number;
   summary_polyline: string;
 }
 
 interface StravaPhotoSummary {
   count: number;
+  use_primary_photo: boolean;
   primary: {
-    id: number;
+    id: number | null;
     source: number;
     unique_id: string;
-    urls: string;
+    urls: any;
   };
 }
 
@@ -108,6 +111,7 @@ interface StravaSummaryGear {
 
 interface StravaMetaActivity {
   id: number;
+  resource_state: number;
 }
 
 interface StravaSummarySegmentEffort {
@@ -186,11 +190,16 @@ interface StravaLap {
   max_speed: number;
   moving_time: number;
   name: string;
-  pace_zone: number;
+  pace_zone?: number;
   split: number;
   start_date: string;
   start_date_local: string;
   total_elevation_gain: number;
+  resource_state: number;
+  device_watts: boolean;
+  average_watts: number;
+  average_heartrate: number;
+  max_heartrate: number;
 }
 
 interface StravaDetailedActivity {
@@ -223,7 +232,7 @@ interface StravaDetailedActivity {
   manual: boolean;
   private: boolean;
   flagged: boolean;
-  workout_type: number;
+  workout_type?: number;
   average_speed: number;
   max_speed: number;
   has_kudoed: boolean;
@@ -243,7 +252,10 @@ interface StravaDetailedActivity {
   splits_metric?: StravaSplit;
   splits_standard?: StravaSplit;
   laps: StravaLap[];
-  best_efforts: StravaDetailedSegmentEffort[];
+  best_efforts?: StravaDetailedSegmentEffort[];
+  has_heartrate: boolean;
+  average_heartrate: number;
+  max_heartrate: number;
 }
 
 export {

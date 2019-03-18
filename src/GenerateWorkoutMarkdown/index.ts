@@ -2,6 +2,7 @@ import axios from 'axios';
 import { Request, Response } from 'express';
 import moment from 'moment-timezone';
 import github from 'octonode';
+import { createMarkdown } from './createMarkdown';
 import {
   RefreshTokenResponse,
   StravaDetailedActivity,
@@ -33,28 +34,15 @@ const writeActivityToGithub = (activity: StravaDetailedActivity): void => {
   const date = moment.tz(absoluteDate, 'America/Denver').format('YYYY-MM-DD');
   const startDate = moment(activity.start_date).format('dddd, MMMM Do YYYY');
 
-  const elevationGain =
-    (activity.type === 'Run' ||
-      activity.type === 'Ride' ||
-      activity.type === 'VirtualRide' ||
-      activity.type === 'VirtualRun') &&
-    `* Elevation Gain: ${activity.total_elevation_gain}`;
-
   const content = `
 ---
 date: ${activity.start_date}
-title: ${activity.name}
+title: ${startDate}
 categories:
   - ${activity.type}
 ---
-
-## [${startDate}: ${activity.name}](https://www.strava.com/activities/${
-    activity.id
-  })
-  * Distance: ${activity.distance}
-  * Elapsed Time: ${activity.elapsed_time}
-  ${elevationGain}
-  `.trim();
+${createMarkdown(activity)}
+`.trim();
 
   const client = github.client(githubToken);
   const repo = client.repo('namack/nateistraining.com');

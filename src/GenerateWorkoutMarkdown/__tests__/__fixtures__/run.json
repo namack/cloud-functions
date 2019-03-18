@@ -1,0 +1,1760 @@
+{
+  "resource_state": 3,
+  "athlete": {
+    "id": 15811743,
+    "resource_state": 1
+  },
+  "name": "Afternoon Run",
+  "distance": 24551.9,
+  "moving_time": 7566,
+  "elapsed_time": 7727,
+  "total_elevation_gain": 85.7,
+  "type": "Run",
+  "workout_type": 0,
+  "id": 2221133947,
+  "external_id": "78C8CA62-53FE-41FF-8EB0-258DBE521D4F",
+  "upload_id": 2365808577,
+  "start_date": "2019-03-17T20:13:51Z",
+  "start_date_local": "2019-03-17T14:13:51Z",
+  "timezone": "(GMT-07:00) America/Denver",
+  "utc_offset": -21600,
+  "start_latlng": [
+    39.72,
+    -105
+  ],
+  "end_latlng": [
+    39.72,
+    -105
+  ],
+  "location_city": null,
+  "location_state": null,
+  "location_country": "",
+  "start_latitude": 39.72,
+  "start_longitude": -105,
+  "achievement_count": 18,
+  "kudos_count": 0,
+  "comment_count": 0,
+  "athlete_count": 1,
+  "photo_count": 0,
+  "map": {
+    "id": "a2221133947",
+    "polyline": "iplqFfiz_SJCBOAWB[@uBHsFEu@DgDGmC?eBBq@Ac@F_AEgB?}ADgBAu@@sCEqB@KHEP?FE?GEs@FiCCi@Be@C_ADo@CSF_AA_@IWAOD{@EiAH_B?w@UEIO?WDS?}@Ha@Ci@EY?_D@i@EiA?_AF{BG}AB_@@{BEeD@m@BW?uBD[?w@Ci@Os@Gk@@GFMZSFM@IBm@AiCC[?]K{AFOBo@Fa@@a@GmA?o@F_@^]CBEK?o@IqAAs@F}C?}AEsADqACgBHoCKyB@y@JO@MIi@CeAFk@?w@Du@@{AEg@EmABiACuBDyAMsBAo@DeAAaAEq@HkAE_@?[HkBGwCFcABqAE{@Da@FORKNCrAAn@@x@E~A?XFJ?f@GPBRGJFFGFYIk@YeASiAGg@E}A?a@P_CA_@Mm@Bc@Hk@G[Hu@?g@Hk@NcDDU@qAAmAJYd@Qb@o@LWPq@X_@DaADW\\{@Za@F[Xg@?gBXa@b@ELIn@eAf@YLOZc@t@i@X_@VQJMPe@\\g@RK\\Kd@_@XeAF?NGNUt@k@NQJQRg@LGZa@r@s@LYLO^YXq@FEDAPg@BELAJGJQHYVYJGRUnAiAPc@r@y@j@_AFQt@g@h@k@l@aALOJWNM@QTQLYV[NGHIf@{@nAeCX_@JGHKJy@Bk@BG@{@AmAJu@DaA@{@EkB@}AJy@DEHo@VcAD[J[PaBj@cCRe@RSHc@`@kAD]Zq@F[LYBe@DSHQ^g@Nw@D{@Le@Fq@DSLYLIBIJg@@YXaAD_@Rg@\\eAN]T_ALWPcAb@sAFORUJc@Zs@Z}@l@s@Rs@X_@^[\\m@F[FK`@QXUHMTKx@m@rAy@VYXQVUn@Yl@i@HETE\\QVU\\c@d@U~@y@^OZg@bAy@XYNYf@i@Zi@RQFC\\[d@{AXm@LOj@}@JSJc@JS^_@L@BC^m@l@i@h@W\\UVK`@g@^m@X[^_Ad@k@Vo@Ru@R]NMT_ATa@Nc@V]^gAT[JYj@aADAF@FK\\qA`@u@T}@Xu@Zc@\\_ATg@J[\\WLWTq@Ze@LCHOJM^k@`@qADy@^s@Vm@NQLWDYNc@j@aAXkAr@iARu@Pa@VWPq@JOb@a@`@_ANm@VUj@u@JYfBiDPg@`AaBZWb@{Bh@q@L_@Pu@DIRQr@kBJKP]\\eBPe@f@WF?LEdAsAPIPWd@qAHe@Nm@@]BEZc@|@_AVc@VUvAwCTq@Zu@bAiBXcA\\i@Zq@t@eAZURUTKPSPINUVMLQHU^URUt@e@TY`@Yr@Yv@m@d@S^Wf@g@`@UVe@LKh@S\\INULc@^_@NSHEPA`@QZ[TQt@]TItAu@TQZMRORIf@]ZMNMdAi@hC{@ZGNIz@Kb@ADAFIFS?wBG_@?Gj@mAHIJARFL@^FPHT?TB\\QJAJDJRNDv@In@ObABvA_A\\k@jAcBjAsC\\kAJUTIP?\\b@v@\\LJNBNEDKCi@EMIMAGFc@Bo@DWLa@d@s@LWFc@PUH_@Ve@Be@FSR[\\y@f@m@MD_@`@w@nA]dA]~@WdAIPa@f@a@bA?XBXT`AA`@KZGBEAc@Q]G[YKCa@@c@TKNCL@\\EZ_@`AQR_@fAY^q@p@c@l@_@Xc@JUC[?iATYA[BG?OQWDM?KCWKUCOEk@@UDURD|@Ml@A|AEN]b@IBkAFa@F{@TuAh@cAb@{BrAeD`BgBbAiA|@u@x@[d@aA^yAnAq@`@i@P}@z@cBlA_@^m@`@gAhAYPq@v@}@t@_@h@w@zAQd@}@bB}@jB_@l@a@bAYh@_AjA{A`CWNIhAW|@Q`@Yf@iAvAe@`@UZoAjDMj@eAbBg@bAUl@Ox@Qr@}@~Aa@x@Sj@w@lAcAjB}@fAy@|AiA~Ae@|@St@mAlCa@p@IHODEDGd@cAtCGbAy@fBIXYf@g@nAOLGHu@bBe@l@m@pAu@pBOV[v@qAlCq@lACRGNsBnDm@tAgAvB]v@Yb@q@n@}AVQL]`@[LKj@m@|@a@fAk@z@}AxC{@rAsB|B{AlAs@^aA|@m@\\_BlAc@XQHy@p@SL_@Xw@f@aBpAe@d@aAjA]f@_B`DO^]`@e@nAu@pCUt@O|@W`@g@zAMj@It@c@~AOtAARWbAIPOr@kAtCa@bBWx@[l@KLOv@c@jASpAOjBOp@Wt@Ij@BfEEdB@f@Gp@?jADVNh@[fA{@dBi@lA{@dBQN_@NSRe@r@_@t@]^c@`@i@r@qC`EML_@XS^sA|AUNc@b@MRYr@i@l@OJe@p@u@`A[f@]\\i@ZIJKRUZYj@_@j@GFa@NOJ{@~@g@v@_Az@]d@MLe@ZSRe@t@IBa@DIFMVEXCxACZUd@i@t@Wh@OtAOl@KRc@f@W`@URWJIJAF@fACb@@dBKbAIh@OtBAd@Bf@Gp@HjBI~AIz@?XF~@b@hCRt@@VL|@E@GCUA{@H{@SU?iBHa@?cAFe@?QBOJKTE\\@zBKbABrAEtDBfBAlABtAC`BBdAAbDBpEDfBIpAFvBKjCDl@?xCC`@B|@A`BBjHEvEDdAI~@Ol@El@F|BKvCFh@ERFhECV[`@Gh@Hn@DvAGxBBvAE|JBnB?xDC`@DvACz@@jBA`ACZ@bGArEBfACl@BRXHBf@CrBGn@CpACTOVENDzCEp@@`BChB?zABhAC`BDbAEpB@f@?nBC`ABtBEtADxAEhCBvBC^",
+    "resource_state": 3,
+    "summary_polyline": "iplqFfiz_SfAubAq@uy@vAoUM{uAvMkA}@{Ip@_YnCeEfBcJhMuLhb@{j@zBc]fRqo@hDyFjViQdI}MzHeHlu@kaBfDsCpNqZxX}U`XaL|@uGhKRvHeMjD`A@eEbFkLgG`MJrD}D]uFnK_L@cApGwUpJuZ`Wip@~oAwC`K}Ujf@uFhDuKxQcUtPmFvIcP|j@uApIM|Qcc@tl@_LbKsCpL_ChCw@~YnAtI{MfAoAfjF"
+  },
+  "trainer": false,
+  "commute": false,
+  "manual": false,
+  "private": false,
+  "visibility": "everyone",
+  "flagged": false,
+  "gear_id": "g3999491",
+  "from_accepted_tag": false,
+  "average_speed": 3.245,
+  "max_speed": 5.7,
+  "average_cadence": 83.4,
+  "has_heartrate": true,
+  "average_heartrate": 150.2,
+  "max_heartrate": 179,
+  "heartrate_opt_out": false,
+  "display_hide_heartrate_option": false,
+  "elev_high": 1659.8,
+  "elev_low": 1601,
+  "pr_count": 10,
+  "total_photo_count": 0,
+  "has_kudoed": false,
+  "suffer_score": 107,
+  "description": null,
+  "calories": 2404.4,
+  "segment_efforts": [
+    {
+      "id": 56109490401,
+      "resource_state": 2,
+      "name": "Downing St to University Blvd",
+      "activity": {
+        "id": 2221133947,
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 15811743,
+        "resource_state": 1
+      },
+      "elapsed_time": 371,
+      "moving_time": 357,
+      "start_date": "2019-03-17T20:26:01Z",
+      "start_date_local": "2019-03-17T14:26:01Z",
+      "distance": 1164.3,
+      "start_index": 525,
+      "end_index": 822,
+      "average_cadence": 83.9,
+      "average_heartrate": 131.6,
+      "max_heartrate": 168,
+      "segment": {
+        "id": 16793152,
+        "resource_state": 2,
+        "name": "Downing St to University Blvd",
+        "activity_type": "Run",
+        "distance": 1164.4,
+        "average_grade": 0.7,
+        "maximum_grade": 3.6,
+        "elevation_high": 1618,
+        "elevation_low": 1605.4,
+        "start_latlng": [
+          39.718151,
+          -104.973139
+        ],
+        "end_latlng": [
+          39.718121,
+          -104.959582
+        ],
+        "start_latitude": 39.718151,
+        "start_longitude": -104.973139,
+        "end_latitude": 39.718121,
+        "end_longitude": -104.959582,
+        "climb_category": 0,
+        "city": "Denver",
+        "state": "Colorado",
+        "country": "United States",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "kom_rank": null,
+      "pr_rank": 3,
+      "achievements": [
+        {
+          "type_id": 3,
+          "type": "pr",
+          "rank": 3
+        }
+      ],
+      "hidden": false
+    },
+    {
+      "id": 56109490415,
+      "resource_state": 2,
+      "name": "Colo Blvd to Cherry SPRINT",
+      "activity": {
+        "id": 2221133947,
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 15811743,
+        "resource_state": 1
+      },
+      "elapsed_time": 209,
+      "moving_time": 209,
+      "start_date": "2019-03-17T20:44:45Z",
+      "start_date_local": "2019-03-17T14:44:45Z",
+      "distance": 661.7,
+      "start_index": 1407,
+      "end_index": 1566,
+      "average_cadence": 83,
+      "average_heartrate": 152.9,
+      "max_heartrate": 159,
+      "segment": {
+        "id": 1716079,
+        "resource_state": 2,
+        "name": "Colo Blvd to Cherry SPRINT",
+        "activity_type": "Run",
+        "distance": 651.167,
+        "average_grade": 0.4,
+        "maximum_grade": 2.9,
+        "elevation_high": 1631.2,
+        "elevation_low": 1626.3,
+        "start_latlng": [
+          39.7065791,
+          -104.9408473
+        ],
+        "end_latlng": [
+          39.7048043,
+          -104.9338372
+        ],
+        "start_latitude": 39.7065791,
+        "start_longitude": -104.9408473,
+        "end_latitude": 39.7048043,
+        "end_longitude": -104.9338372,
+        "climb_category": 0,
+        "city": "Denver",
+        "state": "CO",
+        "country": "United States",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "kom_rank": null,
+      "pr_rank": 2,
+      "achievements": [
+        {
+          "type_id": 3,
+          "type": "pr",
+          "rank": 2
+        }
+      ],
+      "hidden": false
+    },
+    {
+      "id": 56109490506,
+      "resource_state": 2,
+      "name": "Cherry Creek Trail: Colorado to Quebec",
+      "activity": {
+        "id": 2221133947,
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 15811743,
+        "resource_state": 1
+      },
+      "elapsed_time": 1349,
+      "moving_time": 1345,
+      "start_date": "2019-03-17T20:44:48Z",
+      "start_date_local": "2019-03-17T14:44:48Z",
+      "distance": 4160.4,
+      "start_index": 1410,
+      "end_index": 2418,
+      "average_cadence": 82.8,
+      "average_heartrate": 150.6,
+      "max_heartrate": 161,
+      "segment": {
+        "id": 5403691,
+        "resource_state": 2,
+        "name": "Cherry Creek Trail: Colorado to Quebec",
+        "activity_type": "Run",
+        "distance": 4126.4,
+        "average_grade": 0.5,
+        "maximum_grade": 6.2,
+        "elevation_high": 1647.3,
+        "elevation_low": 1626.7,
+        "start_latlng": [
+          39.706529,
+          -104.940669
+        ],
+        "end_latlng": [
+          39.685192,
+          -104.903454
+        ],
+        "start_latitude": 39.706529,
+        "start_longitude": -104.940669,
+        "end_latitude": 39.685192,
+        "end_longitude": -104.903454,
+        "climb_category": 0,
+        "city": "Denver",
+        "state": "CO",
+        "country": "United States",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "kom_rank": null,
+      "pr_rank": null,
+      "achievements": [],
+      "hidden": false
+    },
+    {
+      "id": 56109490491,
+      "resource_state": 2,
+      "name": "Cherry Creek - Cherry to Monaco",
+      "activity": {
+        "id": 2221133947,
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 15811743,
+        "resource_state": 1
+      },
+      "elapsed_time": 812,
+      "moving_time": 808,
+      "start_date": "2019-03-17T20:48:25Z",
+      "start_date_local": "2019-03-17T14:48:25Z",
+      "distance": 2477.9,
+      "start_index": 1574,
+      "end_index": 2175,
+      "average_cadence": 82.9,
+      "average_heartrate": 150.4,
+      "max_heartrate": 160,
+      "segment": {
+        "id": 1136760,
+        "resource_state": 2,
+        "name": "Cherry Creek - Cherry to Monaco",
+        "activity_type": "Run",
+        "distance": 2482.55,
+        "average_grade": 0.5,
+        "maximum_grade": 5.7,
+        "elevation_high": 1643.1,
+        "elevation_low": 1631,
+        "start_latlng": [
+          39.70486368056359,
+          -104.93321076045272
+        ],
+        "end_latlng": [
+          39.69046034388215,
+          -104.91249413239295
+        ],
+        "start_latitude": 39.70486368056359,
+        "start_longitude": -104.93321076045272,
+        "end_latitude": 39.69046034388215,
+        "end_longitude": -104.91249413239295,
+        "climb_category": 0,
+        "city": "Denver",
+        "state": "CO",
+        "country": "United States",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "kom_rank": null,
+      "pr_rank": null,
+      "achievements": [],
+      "hidden": false
+    },
+    {
+      "id": 56109490430,
+      "resource_state": 2,
+      "name": "Short and Straight: Run Faster!",
+      "activity": {
+        "id": 2221133947,
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 15811743,
+        "resource_state": 1
+      },
+      "elapsed_time": 139,
+      "moving_time": 139,
+      "start_date": "2019-03-17T20:52:37Z",
+      "start_date_local": "2019-03-17T14:52:37Z",
+      "distance": 416.4,
+      "start_index": 1762,
+      "end_index": 1861,
+      "average_cadence": 82.7,
+      "average_heartrate": 148.6,
+      "max_heartrate": 153,
+      "segment": {
+        "id": 9703910,
+        "resource_state": 2,
+        "name": "Short and Straight: Run Faster!",
+        "activity_type": "Run",
+        "distance": 413.8,
+        "average_grade": 0.6,
+        "maximum_grade": 1.3,
+        "elevation_high": 1638.3,
+        "elevation_low": 1635.8,
+        "start_latlng": [
+          39.700657,
+          -104.926563
+        ],
+        "end_latlng": [
+          39.697647,
+          -104.923809
+        ],
+        "start_latitude": 39.700657,
+        "start_longitude": -104.926563,
+        "end_latitude": 39.697647,
+        "end_longitude": -104.923809,
+        "climb_category": 0,
+        "city": "Denver",
+        "state": "Colorado",
+        "country": "United States",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "kom_rank": null,
+      "pr_rank": 2,
+      "achievements": [
+        {
+          "type_id": 3,
+          "type": "pr",
+          "rank": 2
+        }
+      ],
+      "hidden": false
+    },
+    {
+      "id": 56109490475,
+      "resource_state": 2,
+      "name": "It's Only a Quarter Mile: Run Hard!",
+      "activity": {
+        "id": 2221133947,
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 15811743,
+        "resource_state": 1
+      },
+      "elapsed_time": 155,
+      "moving_time": 155,
+      "start_date": "2019-03-17T20:56:58Z",
+      "start_date_local": "2019-03-17T14:56:58Z",
+      "distance": 481.1,
+      "start_index": 1953,
+      "end_index": 2071,
+      "average_cadence": 82.8,
+      "average_heartrate": 151.3,
+      "max_heartrate": 157,
+      "segment": {
+        "id": 9902006,
+        "resource_state": 2,
+        "name": "It's Only a Quarter Mile: Run Hard!",
+        "activity_type": "Run",
+        "distance": 468.4,
+        "average_grade": 0.7,
+        "maximum_grade": 7.5,
+        "elevation_high": 1642.3,
+        "elevation_low": 1638.9,
+        "start_latlng": [
+          39.695211,
+          -104.920894
+        ],
+        "end_latlng": [
+          39.692673,
+          -104.916563
+        ],
+        "start_latitude": 39.695211,
+        "start_longitude": -104.920894,
+        "end_latitude": 39.692673,
+        "end_longitude": -104.916563,
+        "climb_category": 0,
+        "city": "Denver",
+        "state": "Colorado",
+        "country": "United States",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "kom_rank": null,
+      "pr_rank": null,
+      "achievements": [],
+      "hidden": false
+    },
+    {
+      "id": 56109490547,
+      "resource_state": 2,
+      "name": "Cherry Creek - Quebec to Iliff",
+      "activity": {
+        "id": 2221133947,
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 15811743,
+        "resource_state": 1
+      },
+      "elapsed_time": 467,
+      "moving_time": 467,
+      "start_date": "2019-03-17T21:07:21Z",
+      "start_date_local": "2019-03-17T15:07:21Z",
+      "distance": 1460.9,
+      "start_index": 2421,
+      "end_index": 2782,
+      "average_cadence": 82.7,
+      "average_heartrate": 150.9,
+      "max_heartrate": 161,
+      "segment": {
+        "id": 8417896,
+        "resource_state": 2,
+        "name": "Cherry Creek - Quebec to Iliff",
+        "activity_type": "Run",
+        "distance": 1470.1,
+        "average_grade": 0.6,
+        "maximum_grade": 13.8,
+        "elevation_high": 1656.6,
+        "elevation_low": 1645.5,
+        "start_latlng": [
+          39.685207,
+          -104.903387
+        ],
+        "end_latlng": [
+          39.674718,
+          -104.893907
+        ],
+        "start_latitude": 39.685207,
+        "start_longitude": -104.903387,
+        "end_latitude": 39.674718,
+        "end_longitude": -104.893907,
+        "climb_category": 0,
+        "city": "Denver",
+        "state": "Colorado",
+        "country": "United States",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "kom_rank": null,
+      "pr_rank": null,
+      "achievements": [],
+      "hidden": false
+    },
+    {
+      "id": 56109490562,
+      "resource_state": 2,
+      "name": "Cherry Creek - Iliff to Quebec",
+      "activity": {
+        "id": 2221133947,
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 15811743,
+        "resource_state": 1
+      },
+      "elapsed_time": 440,
+      "moving_time": 440,
+      "start_date": "2019-03-17T21:27:15Z",
+      "start_date_local": "2019-03-17T15:27:15Z",
+      "distance": 1390.1,
+      "start_index": 3300,
+      "end_index": 3669,
+      "average_cadence": 83,
+      "average_heartrate": 150.7,
+      "max_heartrate": 168,
+      "segment": {
+        "id": 8417881,
+        "resource_state": 2,
+        "name": "Cherry Creek - Iliff to Quebec",
+        "activity_type": "Run",
+        "distance": 1413.4,
+        "average_grade": -0.7,
+        "maximum_grade": 22.5,
+        "elevation_high": 1655.7,
+        "elevation_low": 1645,
+        "start_latlng": [
+          39.6753,
+          -104.89427
+        ],
+        "end_latlng": [
+          39.685313,
+          -104.903414
+        ],
+        "start_latitude": 39.6753,
+        "start_longitude": -104.89427,
+        "end_latitude": 39.685313,
+        "end_longitude": -104.903414,
+        "climb_category": 0,
+        "city": "Denver",
+        "state": "Colorado",
+        "country": "United States",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "kom_rank": null,
+      "pr_rank": null,
+      "achievements": [],
+      "hidden": false
+    },
+    {
+      "id": 56109490579,
+      "resource_state": 2,
+      "name": "1 mile TT",
+      "activity": {
+        "id": 2221133947,
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 15811743,
+        "resource_state": 1
+      },
+      "elapsed_time": 503,
+      "moving_time": 503,
+      "start_date": "2019-03-17T21:35:58Z",
+      "start_date_local": "2019-03-17T15:35:58Z",
+      "distance": 1619.4,
+      "start_index": 3738,
+      "end_index": 4154,
+      "average_cadence": 83.5,
+      "average_heartrate": 165.5,
+      "max_heartrate": 177,
+      "segment": {
+        "id": 2972371,
+        "resource_state": 2,
+        "name": "1 mile TT",
+        "activity_type": "Run",
+        "distance": 1609.2,
+        "average_grade": -0.3,
+        "maximum_grade": 6.5,
+        "elevation_high": 1645.6,
+        "elevation_low": 1638.1,
+        "start_latlng": [
+          39.686661,
+          -104.9058111
+        ],
+        "end_latlng": [
+          39.6952024,
+          -104.9208628
+        ],
+        "start_latitude": 39.686661,
+        "start_longitude": -104.9058111,
+        "end_latitude": 39.6952024,
+        "end_longitude": -104.9208628,
+        "climb_category": 0,
+        "city": "Denver",
+        "state": "CO",
+        "country": "United States",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "kom_rank": null,
+      "pr_rank": null,
+      "achievements": [],
+      "hidden": false
+    },
+    {
+      "id": 56109490596,
+      "resource_state": 2,
+      "name": "Monaco to Cherry Creek Bridge @ Holly",
+      "activity": {
+        "id": 2221133947,
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 15811743,
+        "resource_state": 1
+      },
+      "elapsed_time": 288,
+      "moving_time": 288,
+      "start_date": "2019-03-17T21:40:12Z",
+      "start_date_local": "2019-03-17T15:40:12Z",
+      "distance": 953.3,
+      "start_index": 3941,
+      "end_index": 4189,
+      "average_cadence": 83.9,
+      "average_heartrate": 166.4,
+      "max_heartrate": 177,
+      "segment": {
+        "id": 11183700,
+        "resource_state": 2,
+        "name": "Monaco to Cherry Creek Bridge @ Holly",
+        "activity_type": "Run",
+        "distance": 1019.1,
+        "average_grade": -0.4,
+        "maximum_grade": 23.6,
+        "elevation_high": 1642.3,
+        "elevation_low": 1634.7,
+        "start_latlng": [
+          39.691032,
+          -104.913092
+        ],
+        "end_latlng": [
+          39.696207,
+          -104.921648
+        ],
+        "start_latitude": 39.691032,
+        "start_longitude": -104.913092,
+        "end_latitude": 39.696207,
+        "end_longitude": -104.921648,
+        "climb_category": 0,
+        "city": "Denver",
+        "state": "Colorado",
+        "country": "United States",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "kom_rank": null,
+      "pr_rank": null,
+      "achievements": [],
+      "hidden": false
+    },
+    {
+      "id": 56109490622,
+      "resource_state": 2,
+      "name": "CCT Mile Market 7-6",
+      "activity": {
+        "id": 2221133947,
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 15811743,
+        "resource_state": 1
+      },
+      "elapsed_time": 493,
+      "moving_time": 493,
+      "start_date": "2019-03-17T21:42:14Z",
+      "start_date_local": "2019-03-17T15:42:14Z",
+      "distance": 1646.5,
+      "start_index": 4045,
+      "end_index": 4486,
+      "average_cadence": 85.4,
+      "average_heartrate": 168.8,
+      "max_heartrate": 177,
+      "segment": {
+        "id": 17504800,
+        "resource_state": 2,
+        "name": "CCT Mile Market 7-6",
+        "activity_type": "Run",
+        "distance": 1641.8,
+        "average_grade": -0.5,
+        "maximum_grade": 2.5,
+        "elevation_high": 1640.8,
+        "elevation_low": 1633.2,
+        "start_latlng": [
+          39.692942,
+          -104.916936
+        ],
+        "end_latlng": [
+          39.703468,
+          -104.92985
+        ],
+        "start_latitude": 39.692942,
+        "start_longitude": -104.916936,
+        "end_latitude": 39.703468,
+        "end_longitude": -104.92985,
+        "climb_category": 0,
+        "city": "Denver",
+        "state": "Colorado",
+        "country": "United States",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "kom_rank": null,
+      "pr_rank": 1,
+      "achievements": [
+        {
+          "type_id": 3,
+          "type": "pr",
+          "rank": 1
+        }
+      ],
+      "hidden": false
+    },
+    {
+      "id": 56109490640,
+      "resource_state": 2,
+      "name": "b/c this is where i felt like running fast",
+      "activity": {
+        "id": 2221133947,
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 15811743,
+        "resource_state": 1
+      },
+      "elapsed_time": 222,
+      "moving_time": 222,
+      "start_date": "2019-03-17T21:47:48Z",
+      "start_date_local": "2019-03-17T15:47:48Z",
+      "distance": 751,
+      "start_index": 4342,
+      "end_index": 4548,
+      "average_cadence": 85.1,
+      "average_heartrate": 167.7,
+      "max_heartrate": 179,
+      "segment": {
+        "id": 8614077,
+        "resource_state": 2,
+        "name": "b/c this is where i felt like running fast",
+        "activity_type": "Run",
+        "distance": 746,
+        "average_grade": -0.7,
+        "maximum_grade": 0,
+        "elevation_high": 1636.3,
+        "elevation_low": 1631.3,
+        "start_latlng": [
+          39.699847,
+          -104.925972
+        ],
+        "end_latlng": [
+          39.704281,
+          -104.93214
+        ],
+        "start_latitude": 39.699847,
+        "start_longitude": -104.925972,
+        "end_latitude": 39.704281,
+        "end_longitude": -104.93214,
+        "climb_category": 0,
+        "city": "Denver",
+        "state": "Colorado",
+        "country": "United States",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "kom_rank": null,
+      "pr_rank": 1,
+      "achievements": [
+        {
+          "type_id": 3,
+          "type": "pr",
+          "rank": 1
+        }
+      ],
+      "hidden": false
+    },
+    {
+      "id": 56109490682,
+      "resource_state": 2,
+      "name": "cherry creek path (cherry to university)",
+      "activity": {
+        "id": 2221133947,
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 15811743,
+        "resource_state": 1
+      },
+      "elapsed_time": 761,
+      "moving_time": 761,
+      "start_date": "2019-03-17T21:52:26Z",
+      "start_date_local": "2019-03-17T15:52:26Z",
+      "distance": 2597.8,
+      "start_index": 4597,
+      "end_index": 5278,
+      "average_cadence": 84.9,
+      "average_heartrate": 170.8,
+      "max_heartrate": 179,
+      "segment": {
+        "id": 3443764,
+        "resource_state": 2,
+        "name": "cherry creek path (cherry to university)",
+        "activity_type": "Run",
+        "distance": 2578.9,
+        "average_grade": -0.6,
+        "maximum_grade": 1.3,
+        "elevation_high": 1631.2,
+        "elevation_low": 1616.2,
+        "start_latlng": [
+          39.705155454576015,
+          -104.93403000757098
+        ],
+        "end_latlng": [
+          39.71600758843124,
+          -104.95834339410067
+        ],
+        "start_latitude": 39.705155454576015,
+        "start_longitude": -104.93403000757098,
+        "end_latitude": 39.71600758843124,
+        "end_longitude": -104.95834339410067,
+        "climb_category": 0,
+        "city": "Denver",
+        "state": "CO",
+        "country": "United States",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "kom_rank": null,
+      "pr_rank": 1,
+      "achievements": [
+        {
+          "type_id": 3,
+          "type": "pr",
+          "rank": 1
+        }
+      ],
+      "hidden": false
+    },
+    {
+      "id": 56109490661,
+      "resource_state": 2,
+      "name": "Colorado to Steele NB",
+      "activity": {
+        "id": 2221133947,
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 15811743,
+        "resource_state": 1
+      },
+      "elapsed_time": 324,
+      "moving_time": 324,
+      "start_date": "2019-03-17T21:55:27Z",
+      "start_date_local": "2019-03-17T15:55:27Z",
+      "distance": 1113,
+      "start_index": 4752,
+      "end_index": 5042,
+      "average_cadence": 85.4,
+      "average_heartrate": 172.5,
+      "max_heartrate": 177,
+      "segment": {
+        "id": 14748874,
+        "resource_state": 2,
+        "name": "Colorado to Steele NB",
+        "activity_type": "Run",
+        "distance": 1115.3,
+        "average_grade": -0.7,
+        "maximum_grade": 3,
+        "elevation_high": 1628.4,
+        "elevation_low": 1620,
+        "start_latlng": [
+          39.706612,
+          -104.940641
+        ],
+        "end_latlng": [
+          39.713397,
+          -104.94958
+        ],
+        "start_latitude": 39.706612,
+        "start_longitude": -104.940641,
+        "end_latitude": 39.713397,
+        "end_longitude": -104.94958,
+        "climb_category": 0,
+        "city": "Denver",
+        "state": "Colorado",
+        "country": "United States",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "kom_rank": null,
+      "pr_rank": 1,
+      "achievements": [
+        {
+          "type_id": 3,
+          "type": "pr",
+          "rank": 1
+        }
+      ],
+      "hidden": false
+    },
+    {
+      "id": 56109490707,
+      "resource_state": 2,
+      "name": "E. 1st Ave Shot",
+      "activity": {
+        "id": 2221133947,
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 15811743,
+        "resource_state": 1
+      },
+      "elapsed_time": 303,
+      "moving_time": 303,
+      "start_date": "2019-03-17T22:06:57Z",
+      "start_date_local": "2019-03-17T16:06:57Z",
+      "distance": 1051.1,
+      "start_index": 5372,
+      "end_index": 5653,
+      "average_cadence": 84.6,
+      "average_heartrate": 171,
+      "max_heartrate": 177,
+      "segment": {
+        "id": 8770637,
+        "resource_state": 2,
+        "name": "E. 1st Ave Shot",
+        "activity_type": "Run",
+        "distance": 1051.7,
+        "average_grade": -0.9,
+        "maximum_grade": 0.8,
+        "elevation_high": 1617.9,
+        "elevation_low": 1608.5,
+        "start_latlng": [
+          39.718089,
+          -104.959662
+        ],
+        "end_latlng": [
+          39.71815,
+          -104.97188
+        ],
+        "start_latitude": 39.718089,
+        "start_longitude": -104.959662,
+        "end_latitude": 39.71815,
+        "end_longitude": -104.97188,
+        "climb_category": 0,
+        "city": "Denver",
+        "state": "Colorado",
+        "country": "United States",
+        "private": false,
+        "hazardous": false,
+        "starred": false
+      },
+      "kom_rank": null,
+      "pr_rank": 1,
+      "achievements": [
+        {
+          "type_id": 3,
+          "type": "pr",
+          "rank": 1
+        }
+      ],
+      "hidden": false
+    }
+  ],
+  "splits_metric": [
+    {
+      "distance": 1002.2,
+      "elapsed_time": 348,
+      "elevation_difference": 5.8,
+      "moving_time": 314,
+      "split": 1,
+      "average_speed": 3.19,
+      "average_heartrate": 80.64536741214057,
+      "pace_zone": 3
+    },
+    {
+      "distance": 1001.9,
+      "elapsed_time": 322,
+      "elevation_difference": 3.1,
+      "moving_time": 311,
+      "split": 2,
+      "average_speed": 3.22,
+      "average_heartrate": 83.55737704918033,
+      "pace_zone": 3
+    },
+    {
+      "distance": 998.4,
+      "elapsed_time": 331,
+      "elevation_difference": 4.1,
+      "moving_time": 298,
+      "split": 3,
+      "average_speed": 3.35,
+      "average_heartrate": 116.31506849315069,
+      "pace_zone": 3
+    },
+    {
+      "distance": 998.2,
+      "elapsed_time": 320,
+      "elevation_difference": 4.1,
+      "moving_time": 320,
+      "split": 4,
+      "average_speed": 3.12,
+      "average_heartrate": 154.48397435897436,
+      "pace_zone": 3
+    },
+    {
+      "distance": 1004.1,
+      "elapsed_time": 318,
+      "elevation_difference": 5.7,
+      "moving_time": 318,
+      "split": 5,
+      "average_speed": 3.16,
+      "average_heartrate": 153.37735849056602,
+      "pace_zone": 3
+    },
+    {
+      "distance": 995.9,
+      "elapsed_time": 323,
+      "elevation_difference": 4.8,
+      "moving_time": 323,
+      "split": 6,
+      "average_speed": 3.08,
+      "average_heartrate": 153.0920634920635,
+      "pace_zone": 3
+    },
+    {
+      "distance": 1001.5,
+      "elapsed_time": 324,
+      "elevation_difference": 6.4,
+      "moving_time": 324,
+      "split": 7,
+      "average_speed": 3.09,
+      "average_heartrate": 152.20679012345678,
+      "pace_zone": 3
+    },
+    {
+      "distance": 1000.4,
+      "elapsed_time": 324,
+      "elevation_difference": 5.5,
+      "moving_time": 324,
+      "split": 8,
+      "average_speed": 3.09,
+      "average_heartrate": 149.5125,
+      "pace_zone": 3
+    },
+    {
+      "distance": 999.8,
+      "elapsed_time": 322,
+      "elevation_difference": 2.7,
+      "moving_time": 322,
+      "split": 9,
+      "average_speed": 3.1,
+      "average_heartrate": 150.87577639751552,
+      "pace_zone": 3
+    },
+    {
+      "distance": 998.4,
+      "elapsed_time": 322,
+      "elevation_difference": 5.8,
+      "moving_time": 322,
+      "split": 10,
+      "average_speed": 3.1,
+      "average_heartrate": 148.95341614906832,
+      "pace_zone": 3
+    },
+    {
+      "distance": 1004.5,
+      "elapsed_time": 324,
+      "elevation_difference": 7.1,
+      "moving_time": 324,
+      "split": 11,
+      "average_speed": 3.1,
+      "average_heartrate": 151.84876543209876,
+      "pace_zone": 3
+    },
+    {
+      "distance": 997.7,
+      "elapsed_time": 356,
+      "elevation_difference": 1.3,
+      "moving_time": 321,
+      "split": 12,
+      "average_speed": 3.11,
+      "average_heartrate": 148.96865203761755,
+      "pace_zone": 3
+    },
+    {
+      "distance": 1000.9,
+      "elapsed_time": 324,
+      "elevation_difference": -2.1,
+      "moving_time": 324,
+      "split": 13,
+      "average_speed": 3.09,
+      "average_heartrate": 149.20987654320987,
+      "pace_zone": 3
+    },
+    {
+      "distance": 997.4,
+      "elapsed_time": 334,
+      "elevation_difference": -3.2,
+      "moving_time": 321,
+      "split": 14,
+      "average_speed": 3.11,
+      "average_heartrate": 146.7968253968254,
+      "pace_zone": 3
+    },
+    {
+      "distance": 1002.1,
+      "elapsed_time": 317,
+      "elevation_difference": -6.6,
+      "moving_time": 317,
+      "split": 15,
+      "average_speed": 3.16,
+      "average_heartrate": 156.37223974763407,
+      "pace_zone": 3
+    },
+    {
+      "distance": 1000.4,
+      "elapsed_time": 317,
+      "elevation_difference": -2.8,
+      "moving_time": 317,
+      "split": 16,
+      "average_speed": 3.16,
+      "average_heartrate": 165.29968454258676,
+      "pace_zone": 3
+    },
+    {
+      "distance": 999.6,
+      "elapsed_time": 300,
+      "elevation_difference": -4.4,
+      "moving_time": 300,
+      "split": 17,
+      "average_speed": 3.33,
+      "average_heartrate": 167.12,
+      "pace_zone": 3
+    },
+    {
+      "distance": 997.1,
+      "elapsed_time": 298,
+      "elevation_difference": -5.3,
+      "moving_time": 298,
+      "split": 18,
+      "average_speed": 3.35,
+      "average_heartrate": 169.0704697986577,
+      "pace_zone": 3
+    },
+    {
+      "distance": 999.5,
+      "elapsed_time": 296,
+      "elevation_difference": -7.8,
+      "moving_time": 296,
+      "split": 19,
+      "average_speed": 3.38,
+      "average_heartrate": 165.2668918918919,
+      "pace_zone": 4
+    },
+    {
+      "distance": 1004.8,
+      "elapsed_time": 292,
+      "elevation_difference": -4.2,
+      "moving_time": 292,
+      "split": 20,
+      "average_speed": 3.44,
+      "average_heartrate": 172.92808219178082,
+      "pace_zone": 4
+    },
+    {
+      "distance": 996.4,
+      "elapsed_time": 289,
+      "elevation_difference": -6.2,
+      "moving_time": 289,
+      "split": 21,
+      "average_speed": 3.45,
+      "average_heartrate": 172.1349480968858,
+      "pace_zone": 4
+    },
+    {
+      "distance": 1001.4,
+      "elapsed_time": 291,
+      "elevation_difference": -3.7,
+      "moving_time": 291,
+      "split": 22,
+      "average_speed": 3.44,
+      "average_heartrate": 171.7422680412371,
+      "pace_zone": 4
+    },
+    {
+      "distance": 999,
+      "elapsed_time": 279,
+      "elevation_difference": -2.9,
+      "moving_time": 279,
+      "split": 23,
+      "average_speed": 3.58,
+      "average_heartrate": 169.82437275985663,
+      "pace_zone": 4
+    },
+    {
+      "distance": 999.6,
+      "elapsed_time": 311,
+      "elevation_difference": -3.6,
+      "moving_time": 276,
+      "split": 24,
+      "average_speed": 3.62,
+      "average_heartrate": 163.6037037037037,
+      "pace_zone": 5
+    },
+    {
+      "distance": 550.7,
+      "elapsed_time": 144,
+      "elevation_difference": -3.5,
+      "moving_time": 144,
+      "split": 25,
+      "average_speed": 3.82,
+      "average_heartrate": 145.25,
+      "pace_zone": 6
+    }
+  ],
+  "splits_standard": [
+    {
+      "distance": 1612.3,
+      "elapsed_time": 550,
+      "elevation_difference": 7.1,
+      "moving_time": 505,
+      "split": 1,
+      "average_speed": 3.19,
+      "average_heartrate": 81.76506024096386,
+      "pace_zone": 3
+    },
+    {
+      "distance": 1609.2,
+      "elapsed_time": 524,
+      "elevation_difference": 8.7,
+      "moving_time": 491,
+      "split": 2,
+      "average_speed": 3.28,
+      "average_heartrate": 114.94845360824742,
+      "pace_zone": 3
+    },
+    {
+      "distance": 1606.6,
+      "elapsed_time": 508,
+      "elevation_difference": 5.1,
+      "moving_time": 508,
+      "split": 3,
+      "average_speed": 3.16,
+      "average_heartrate": 152.998,
+      "pace_zone": 3
+    },
+    {
+      "distance": 1611.1,
+      "elapsed_time": 518,
+      "elevation_difference": 9.7,
+      "moving_time": 518,
+      "split": 4,
+      "average_speed": 3.11,
+      "average_heartrate": 152.84509803921569,
+      "pace_zone": 3
+    },
+    {
+      "distance": 1610.5,
+      "elapsed_time": 524,
+      "elevation_difference": 9,
+      "moving_time": 524,
+      "split": 5,
+      "average_speed": 3.07,
+      "average_heartrate": 150.58653846153845,
+      "pace_zone": 3
+    },
+    {
+      "distance": 1607.9,
+      "elapsed_time": 517,
+      "elevation_difference": 5.3,
+      "moving_time": 517,
+      "split": 6,
+      "average_speed": 3.11,
+      "average_heartrate": 149.79497098646036,
+      "pace_zone": 3
+    },
+    {
+      "distance": 1609.2,
+      "elapsed_time": 522,
+      "elevation_difference": 10.4,
+      "moving_time": 522,
+      "split": 7,
+      "average_speed": 3.08,
+      "average_heartrate": 150.80459770114942,
+      "pace_zone": 3
+    },
+    {
+      "distance": 1610.2,
+      "elapsed_time": 553,
+      "elevation_difference": 0.4,
+      "moving_time": 518,
+      "split": 8,
+      "average_speed": 3.11,
+      "average_heartrate": 149.29457364341084,
+      "pace_zone": 3
+    },
+    {
+      "distance": 1607.7,
+      "elapsed_time": 531,
+      "elevation_difference": -6.9,
+      "moving_time": 518,
+      "split": 9,
+      "average_speed": 3.1,
+      "average_heartrate": 147.232421875,
+      "pace_zone": 3
+    },
+    {
+      "distance": 1609.8,
+      "elapsed_time": 509,
+      "elevation_difference": -7.4,
+      "moving_time": 509,
+      "split": 10,
+      "average_speed": 3.16,
+      "average_heartrate": 164.84479371316306,
+      "pace_zone": 3
+    },
+    {
+      "distance": 1610.2,
+      "elapsed_time": 481,
+      "elevation_difference": -7.9,
+      "moving_time": 481,
+      "split": 11,
+      "average_speed": 3.35,
+      "average_heartrate": 169.0997920997921,
+      "pace_zone": 3
+    },
+    {
+      "distance": 1610,
+      "elapsed_time": 476,
+      "elevation_difference": -10,
+      "moving_time": 476,
+      "split": 12,
+      "average_speed": 3.38,
+      "average_heartrate": 166.44117647058823,
+      "pace_zone": 4
+    },
+    {
+      "distance": 1607,
+      "elapsed_time": 465,
+      "elevation_difference": -8.3,
+      "moving_time": 465,
+      "split": 13,
+      "average_speed": 3.46,
+      "average_heartrate": 172.99354838709678,
+      "pace_zone": 4
+    },
+    {
+      "distance": 1610.9,
+      "elapsed_time": 464,
+      "elevation_difference": -6.5,
+      "moving_time": 464,
+      "split": 14,
+      "average_speed": 3.47,
+      "average_heartrate": 171.25862068965517,
+      "pace_zone": 4
+    },
+    {
+      "distance": 1610.9,
+      "elapsed_time": 476,
+      "elevation_difference": -5.8,
+      "moving_time": 441,
+      "split": 15,
+      "average_speed": 3.65,
+      "average_heartrate": 163.73103448275862,
+      "pace_zone": 5
+    },
+    {
+      "distance": 408.4,
+      "elapsed_time": 108,
+      "elevation_difference": -2.8,
+      "moving_time": 108,
+      "split": 16,
+      "average_speed": 3.78,
+      "average_heartrate": 144.34259259259258,
+      "pace_zone": 5
+    }
+  ],
+  "laps": [
+    {
+      "id": 7252573293,
+      "resource_state": 2,
+      "name": "Lap 1",
+      "activity": {
+        "id": 2221133947,
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 15811743,
+        "resource_state": 1
+      },
+      "elapsed_time": 7726,
+      "moving_time": 7518,
+      "start_date": "2019-03-17T20:13:51Z",
+      "start_date_local": "2019-03-17T14:13:51Z",
+      "distance": 24551.9,
+      "start_index": 0,
+      "end_index": 6211,
+      "total_elevation_gain": 96.2,
+      "average_speed": 3.27,
+      "max_speed": 5.7,
+      "average_cadence": 83.4,
+      "average_heartrate": 150.2,
+      "max_heartrate": 179,
+      "lap_index": 1,
+      "split": 1,
+      "pace_zone": 3
+    }
+  ],
+  "best_efforts": [
+    {
+      "id": 4737800826,
+      "resource_state": 2,
+      "name": "400m",
+      "activity": {
+        "id": 2221133947,
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 15811743,
+        "resource_state": 1
+      },
+      "elapsed_time": 102,
+      "moving_time": 103,
+      "start_date": "2019-03-17T22:18:53Z",
+      "start_date_local": "2019-03-17T16:18:53Z",
+      "distance": 400,
+      "start_index": 5996,
+      "end_index": 6096,
+      "pr_rank": null,
+      "achievements": []
+    },
+    {
+      "id": 4737800827,
+      "resource_state": 2,
+      "name": "1/2 mile",
+      "activity": {
+        "id": 2221133947,
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 15811743,
+        "resource_state": 1
+      },
+      "elapsed_time": 207,
+      "moving_time": 208,
+      "start_date": "2019-03-17T22:19:01Z",
+      "start_date_local": "2019-03-17T16:19:01Z",
+      "distance": 805,
+      "start_index": 6003,
+      "end_index": 6206,
+      "pr_rank": 3,
+      "achievements": [
+        {
+          "type_id": 3,
+          "type": "pr",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": 4737800828,
+      "resource_state": 2,
+      "name": "1k",
+      "activity": {
+        "id": 2221133947,
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 15811743,
+        "resource_state": 1
+      },
+      "elapsed_time": 273,
+      "moving_time": 274,
+      "start_date": "2019-03-17T22:11:09Z",
+      "start_date_local": "2019-03-17T16:11:09Z",
+      "distance": 1000,
+      "start_index": 5605,
+      "end_index": 5860,
+      "pr_rank": 3,
+      "achievements": [
+        {
+          "type_id": 3,
+          "type": "pr",
+          "rank": 3
+        }
+      ]
+    },
+    {
+      "id": 4737800829,
+      "resource_state": 2,
+      "name": "1 mile",
+      "activity": {
+        "id": 2221133947,
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 15811743,
+        "resource_state": 1
+      },
+      "elapsed_time": 444,
+      "moving_time": 445,
+      "start_date": "2019-03-17T22:10:37Z",
+      "start_date_local": "2019-03-17T16:10:37Z",
+      "distance": 1609,
+      "start_index": 5576,
+      "end_index": 5989,
+      "pr_rank": 2,
+      "achievements": [
+        {
+          "type_id": 3,
+          "type": "pr",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": 4737800830,
+      "resource_state": 2,
+      "name": "2 mile",
+      "activity": {
+        "id": 2221133947,
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 15811743,
+        "resource_state": 1
+      },
+      "elapsed_time": 913,
+      "moving_time": 914,
+      "start_date": "2019-03-17T22:02:46Z",
+      "start_date_local": "2019-03-17T16:02:46Z",
+      "distance": 3219,
+      "start_index": 5151,
+      "end_index": 5987,
+      "pr_rank": 2,
+      "achievements": [
+        {
+          "type_id": 3,
+          "type": "pr",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": 4737800831,
+      "resource_state": 2,
+      "name": "5k",
+      "activity": {
+        "id": 2221133947,
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 15811743,
+        "resource_state": 1
+      },
+      "elapsed_time": 1430,
+      "moving_time": 1431,
+      "start_date": "2019-03-17T21:54:09Z",
+      "start_date_local": "2019-03-17T15:54:09Z",
+      "distance": 5000,
+      "start_index": 4683,
+      "end_index": 5987,
+      "pr_rank": 1,
+      "achievements": [
+        {
+          "type_id": 3,
+          "type": "pr",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": 4737800832,
+      "resource_state": 2,
+      "name": "10k",
+      "activity": {
+        "id": 2221133947,
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 15811743,
+        "resource_state": 1
+      },
+      "elapsed_time": 2957,
+      "moving_time": 2917,
+      "start_date": "2019-03-17T21:33:11Z",
+      "start_date_local": "2019-03-17T15:33:11Z",
+      "distance": 10000,
+      "start_index": 3595,
+      "end_index": 6206,
+      "pr_rank": 2,
+      "achievements": [
+        {
+          "type_id": 3,
+          "type": "pr",
+          "rank": 2
+        }
+      ]
+    },
+    {
+      "id": 4737800833,
+      "resource_state": 2,
+      "name": "15k",
+      "activity": {
+        "id": 2221133947,
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 15811743,
+        "resource_state": 1
+      },
+      "elapsed_time": 4618,
+      "moving_time": 4522,
+      "start_date": "2019-03-17T21:05:30Z",
+      "start_date_local": "2019-03-17T15:05:30Z",
+      "distance": 15000,
+      "start_index": 2341,
+      "end_index": 6206,
+      "pr_rank": 1,
+      "achievements": [
+        {
+          "type_id": 3,
+          "type": "pr",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": 4737800834,
+      "resource_state": 2,
+      "name": "10 mile",
+      "activity": {
+        "id": 2221133947,
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 15811743,
+        "resource_state": 1
+      },
+      "elapsed_time": 4967,
+      "moving_time": 4871,
+      "start_date": "2019-03-17T20:59:48Z",
+      "start_date_local": "2019-03-17T14:59:48Z",
+      "distance": 16090,
+      "start_index": 2080,
+      "end_index": 6210,
+      "pr_rank": 1,
+      "achievements": [
+        {
+          "type_id": 3,
+          "type": "pr",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": 4737800835,
+      "resource_state": 2,
+      "name": "20k",
+      "activity": {
+        "id": 2221133947,
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 15811743,
+        "resource_state": 1
+      },
+      "elapsed_time": 6232,
+      "moving_time": 6124,
+      "start_date": "2019-03-17T20:38:35Z",
+      "start_date_local": "2019-03-17T14:38:35Z",
+      "distance": 20000,
+      "start_index": 1126,
+      "end_index": 6205,
+      "pr_rank": 1,
+      "achievements": [
+        {
+          "type_id": 3,
+          "type": "pr",
+          "rank": 1
+        }
+      ]
+    },
+    {
+      "id": 4737800836,
+      "resource_state": 2,
+      "name": "Half-Marathon",
+      "activity": {
+        "id": 2221133947,
+        "resource_state": 1
+      },
+      "athlete": {
+        "id": 15811743,
+        "resource_state": 1
+      },
+      "elapsed_time": 6579,
+      "moving_time": 6464,
+      "start_date": "2019-03-17T20:32:48Z",
+      "start_date_local": "2019-03-17T14:32:48Z",
+      "distance": 21097,
+      "start_index": 849,
+      "end_index": 6206,
+      "pr_rank": 1,
+      "achievements": [
+        {
+          "type_id": 3,
+          "type": "pr",
+          "rank": 1
+        }
+      ]
+    }
+  ],
+  "gear": {
+    "id": "g3999491",
+    "primary": true,
+    "name": "Mizuno Wave Inspire 14 Mizuno Wave Inspire #2",
+    "resource_state": 2,
+    "distance": 262242
+  },
+  "photos": {
+    "primary": null,
+    "count": 0
+  },
+  "device_name": "Strava iPhone App",
+  "embed_token": "d6c64f31f44b62a10a5e1c34bb28d37a9d70952c",
+  "similar_activities": {
+    "effort_count": 1,
+    "average_speed": 3.2450303991541105,
+    "min_average_speed": 3.2450303991541105,
+    "mid_average_speed": 3.2450303991541105,
+    "max_average_speed": 3.2450303991541105,
+    "pr_rank": null,
+    "frequency_milestone": null,
+    "trend": {
+      "speeds": [
+        3.2450303991541105
+      ],
+      "current_activity_index": 0,
+      "min_speed": 3.2450303991541105,
+      "mid_speed": 3.2450303991541105,
+      "max_speed": 3.2450303991541105,
+      "direction": 0
+    },
+    "resource_state": 2
+  },
+  "available_zones": [
+    "heartrate",
+    "pace"
+  ]
+}

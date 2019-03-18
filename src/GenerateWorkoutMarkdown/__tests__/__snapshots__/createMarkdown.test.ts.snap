@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`markdown post generation 1`] = `
+"## [Build Me Up - Novanta](https://www.strava.com/activities/2214831402)
+
+_Distance_
+
+### 19.68 miles
+
+_Total Time_
+
+### 1 hour
+
+_Average Pace_
+
+### 19.61 MPH
+
+_Elevation Gain_
+
+### 715 feet
+
+_Average Heart Rate_
+
+### 154 BPM
+
+_Max Heart Rate_
+
+### 180 BPM
+
+_Calories_
+
+### 604 Calories"
+`;
+
+exports[`markdown post generation 2`] = `
+"## [Afternoon Run](https://www.strava.com/activities/2221133947)
+
+_Distance_
+
+### 15.26 miles
+
+_Total Time_
+
+### 2 hours, 6 minutes
+
+_Average Pace_
+
+### 8.27 / Mile
+
+_Elevation Gain_
+
+### 281 feet
+
+_Average Heart Rate_
+
+### 150 BPM
+
+_Max Heart Rate_
+
+### 179 BPM
+
+_Calories_
+
+### 2,404 Calories"
+`;
