@@ -25,6 +25,18 @@ const determineRequestType = (req: Request): StravaRequestType | undefined => {
     body.object_type === 'activity'
   ) {
     return StravaRequestType.StravaWebhookEvent;
+  } else if (
+    body.type === 'backfill' &&
+    !!body.activityId &&
+    !!body.writeToGithub
+  ) {
+    return StravaRequestType.CustomBackfillEvent;
+  } else if (
+    body.type === 'generate' &&
+    !!body.activityId &&
+    !body.writeToGithub
+  ) {
+    return StravaRequestType.CustomGenerationEvent;
   }
 };
 
@@ -128,6 +140,30 @@ const generateWorkoutMarkdown = (req: Request, res: Response) => {
         })
         .then((activity: StravaDetailedActivity) => {
           return writeActivityToGithub(activity)
+        }).catch((error: any) => {
+          console.error(error)
+        });
+    case StravaRequestType.CustomBackfillEvent:
+      res.status(200).send()
+
+      return getToken()
+        .then((token: Token) => {
+          return getActivityData(webhookBody.object_id, token);
+        })
+        .then((activity: StravaDetailedActivity) => {
+          return writeActivityToGithub(activity)
+        }).catch((error: any) => {
+          console.error(error)
+        });
+
+    case StravaRequestType.CustomGenerationEvent:
+      return getToken()
+        .then((token: Token) => {
+          return getActivityData(webhookBody.object_id, token);
+        })
+        .then((activity: StravaDetailedActivity) => {
+          const parsed = createMarkdown(activity);
+          return res.send(parsed)
         }).catch((error: any) => {
           console.error(error)
         });

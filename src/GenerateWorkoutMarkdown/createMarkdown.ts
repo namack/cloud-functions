@@ -1,9 +1,8 @@
-import moment from 'moment';
+import moment from 'moment-timezone';
 import pluralize from 'pluralize';
 import { addCommas } from '../utils';
-import { StravaDetailedActivity } from './stravaTypes';
 
-const createMarkdown = (activity: StravaDetailedActivity): string => {
+const createMarkdown = (activity: any): string => {
   const heartrateSection =
     activity.has_heartrate &&
     `

@@ -5,6 +5,8 @@ interface StravaHubResponse {
 enum StravaRequestType {
   StravaHubRequest = 'StravaHubRequest',
   StravaWebhookEvent = 'StravaWebhookEvent',
+  CustomBackfillEvent = 'CustomBackfillEvent',
+  CustomGenerationEvent = 'CustomGenerationEvent',
 }
 
 type Token = string;
