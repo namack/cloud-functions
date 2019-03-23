@@ -45,7 +45,9 @@ _Max Heart Rate_
       return `${speed.toFixed(2)} MPH`;
     } else if (activity.type === 'Run' || activity.type === 'VirtualRun') {
       const pace = 60 / speed;
-      return `${pace.toFixed(2)} / Mile`;
+      const min = Math.trunc(pace);
+      const seconds = Math.round(60 * (pace - min));
+      return `${min}:${seconds} / Mile`;
     }
   };
 
