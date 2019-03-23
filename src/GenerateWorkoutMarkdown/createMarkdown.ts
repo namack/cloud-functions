@@ -17,7 +17,7 @@ _Max Heart Rate_
 
   const distance = activity.distance / 1609.34;
   const hours = parseInt(
-    moment.utc(activity.moving_time * 1000).format('h'),
+    moment.utc(activity.moving_time * 1000).format('H'),
     10
   );
   const minutes = parseInt(
@@ -39,19 +39,26 @@ _Max Heart Rate_
 
   const calories = addCommas(JSON.stringify(Math.floor(activity.calories)));
 
-  const averageSpeed = (): string | undefined => {
+  const averageSpeed = (): string | null => {
     const speed = activity.average_speed * 2.237;
     if (activity.type === 'VirtualRide' || activity.type === 'Ride') {
       return `${speed.toFixed(2)} MPH`;
     } else if (activity.type === 'Run' || activity.type === 'VirtualRun') {
       const pace = 60 / speed;
       const min = Math.trunc(pace);
-      const seconds = Math.round(60 * (pace - min));
-      return `${min}:${seconds} / Mile`;
+      const seconds = JSON.stringify(Math.round(60 * (pace - min)));
+      let secondString = seconds;
+
+      if (secondString.length === 1) {
+        secondString = `0${seconds}`;
+      }
+      return `${min}:${secondString} / Mile`;
+    } else {
+      return null;
     }
   };
 
-  const paceSection =
+  const paceSection = () =>
     averageSpeed &&
     `
 _Average Pace_
@@ -83,7 +90,7 @@ _Total Time_
 
 ### ${elapsedTime()}
 
-${paceSection}
+${paceSection()}
 
 ${elevationSection}
 

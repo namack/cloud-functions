@@ -10,7 +10,7 @@ app.use((req, res, next) => {
     'Access-Control-Allow-Headers',
     'Origin, X-Requested-With, Content-Type, Accept'
   );
-  next();
+  next(req, res);
 });
 
 app.get('/generateWorkoutMarkdown', (req, res) => {
@@ -18,6 +18,8 @@ app.get('/generateWorkoutMarkdown', (req, res) => {
 });
 
 app.post('/generateWorkoutMarkdown', (req, res) => {
+  console.log('incoming req.body', req.body);
+
   return generateWorkoutMarkdown(req, res);
 });
 
