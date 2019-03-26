@@ -50,6 +50,9 @@ categories:
 ${createMarkdown(activity)}
 `.trim();
 
+  const returnString = `
+`.trim();
+
   const client = github.client(githubToken);
   const repo = client.repo('namack/nateistraining.com');
 
@@ -92,7 +95,7 @@ ${createMarkdown(activity)}
     new Promise((resolve, reject) => {
       const workout = createMarkdown(activity);
       const decoded = Base64.decode(data.content);
-      const post = decoded.concat(workout);
+      const post = decoded.concat(returnString, workout);
 
       repo.updateContents(
         path('index.mdx'),
