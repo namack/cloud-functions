@@ -44,7 +44,7 @@
     "typescript": "^3.3.3333"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "js-base64": "^2.5.1",
     "moment-duration-format": "^2.2.2",
     "moment-timezone": "^0.5.23",
