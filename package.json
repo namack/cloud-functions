@@ -47,7 +47,7 @@
     "axios": "^0.18.0",
     "js-base64": "^2.5.1",
     "moment-duration-format": "^2.2.2",
-    "moment-timezone": "^0.5.23",
+    "moment-timezone": "^0.5.35",
     "octonode": "^0.9.5",
     "pluralize": "^7.0.0"
   }
